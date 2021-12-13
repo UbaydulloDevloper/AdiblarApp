@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/drawable/add_btn.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/drawable/ic_about.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/drawable/ic_elips.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/drawable/ic_nosave.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/drawable/ic_save_.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/drawable/radius.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/drawable/tab_indekator.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/layout/fragment_about__app.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/layout/fragment_add_authors.xml" value="0.176" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/layout/fragment_add_books.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/layout/fragment_authors_info.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/layout/fragment_basic_home.xml" value="0.17300724637681159" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/layout/fragment_books_list.xml" value="0.23540315106580167" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/layout/fragment_classical_books.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/layout/fragment_home_basic.xml" value="0.17300724637681159" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/layout/fragment_save_authors.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/layout/fragment_search_view.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/layout/fragment_setting.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/layout/fragment_uzbek_literature.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/layout/fragment_world__literature.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/layout/item_rv_adib.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AdiblarApp/app/src/main/res/menu/bottom_tab.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

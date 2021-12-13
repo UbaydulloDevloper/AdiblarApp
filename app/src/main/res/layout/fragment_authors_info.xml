@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_gray"
+    app:layoutDescription="@xml/fragment_authors_info_scene"
+    tools:context=".Authors_info">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/back_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:src="@drawable/ic_back" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/save_btn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:src="@drawable/ic_save_"
+        app:layout_constraintBottom_toBottomOf="@id/search_card"
+        app:layout_constraintRight_toLeftOf="@id/search_card"
+        app:layout_constraintTop_toTopOf="@id/search_card" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/search_card"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="35dp"
+        app:cardElevation="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:src="@drawable/ic_back" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/authors_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="O'tkir Hoshimov"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/back_btn"
+        app:layout_constraintTop_toBottomOf="@id/back_btn"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/authors_name">
+
+        <LinearLayout
+            android:id="@+id/liner_layout_nested"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/primary_gray"
+            android:clickable="false"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/txt_yil_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:clickable="false"
+                android:paddingStart="5dp"
+                android:text="1923-2019"
+                android:textSize="20sp" />
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:clickable="false"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="2.5dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/image_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:clickable="false"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/logo" />
+
+                    <com.athkalia.emphasis.EmphasisTextView
+                        android:id="@+id/txt_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:clickable="false"
+                        android:text="Adib Haqida malumot\n\n\nAdib Haqida malumot\n\n\nAdib Haqida malumot\n\n\nAdib Haqida malumot\n\n\nAdib Haqida malumot\n\n\nAdib Haqida malumot\n\n\nAdib Haqida malumot\n\n\nAdib Haqida malumot\n\n\nAdib Haqida malumot\n\n\n"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

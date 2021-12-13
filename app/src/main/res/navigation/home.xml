@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    app:startDestination="@id/home_basic">
+
+    <fragment
+        android:id="@+id/home_basic"
+        android:name="com.developer.adiblarapp.Home_basic"
+        android:label="fragment_home_basic"
+        tools:layout="@layout/fragment_home_basic" >
+        <action
+            android:id="@+id/action_home_basic_to_save_authors"
+            app:destination="@id/save_authors" />
+        <action
+            android:id="@+id/action_home_basic_to_setting"
+            app:destination="@id/setting" />
+        <action
+            android:id="@+id/action_home_basic_to_books_list"
+            app:destination="@id/books_list" />
+        <action
+            android:id="@+id/action_home_basic_to_authors_info"
+            app:destination="@id/authors_info" />
+        <action
+            android:id="@+id/action_home_basic_to_search_view"
+            app:destination="@id/search_view" />
+    </fragment>
+    <fragment
+        android:id="@+id/save_authors"
+        android:name="com.developer.adiblarapp.Save_authors"
+        android:label="fragment_save_authors"
+        tools:layout="@layout/fragment_save_authors" />
+    <fragment
+        android:id="@+id/classical_books"
+        android:name="com.developer.adiblarapp.Classical_books"
+        android:label="fragment_classical_books"
+        tools:layout="@layout/fragment_classical_books" >
+        <action
+            android:id="@+id/action_classical_books_to_search_view"
+            app:destination="@id/search_view" />
+    </fragment>
+    <fragment
+        android:id="@+id/uzbek_literature"
+        android:name="com.developer.adiblarapp.Uzbek_literature"
+        android:label="fragment_uzbek_literature"
+        tools:layout="@layout/fragment_uzbek_literature" />
+    <fragment
+        android:id="@+id/world_Literature"
+        android:name="com.developer.adiblarapp.World_Literature"
+        android:label="fragment_world__literature"
+        tools:layout="@layout/fragment_world__literature" >
+        <action
+            android:id="@+id/action_world_Literature_to_authors_info"
+            app:destination="@id/authors_info" />
+    </fragment>
+    <fragment
+        android:id="@+id/authors_info"
+        android:name="com.developer.adiblarapp.Authors_info"
+        android:label="fragment_authors_info"
+        tools:layout="@layout/fragment_authors_info" />
+    <fragment
+        android:id="@+id/about_App"
+        android:name="com.developer.adiblarapp.About_App"
+        android:label="fragment_about__app"
+        tools:layout="@layout/fragment_about__app" />
+    <fragment
+        android:id="@+id/books_list"
+        android:name="com.developer.adiblarapp.books_list"
+        android:label="fragment_books_list"
+        tools:layout="@layout/fragment_books_list" >
+        <action
+            android:id="@+id/action_books_list_to_world_Literature"
+            app:destination="@id/world_Literature" />
+        <action
+            android:id="@+id/action_books_list_to_classical_books"
+            app:destination="@id/classical_books" />
+        <action
+            android:id="@+id/action_books_list_to_uzbek_literature"
+            app:destination="@id/uzbek_literature" />
+    </fragment>
+    <fragment
+        android:id="@+id/search_view"
+        android:name="com.developer.adiblarapp.Search_view"
+        android:label="fragment_search_view"
+        tools:layout="@layout/fragment_search_view" />
+    <fragment
+        android:id="@+id/setting"
+        android:name="com.developer.adiblarapp.Setting"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/action_setting_to_about_App"
+            app:destination="@id/about_App" />
+        <action
+            android:id="@+id/action_setting_to_add_authors"
+            app:destination="@id/add_authors" />
+    </fragment>
+    <fragment
+        android:id="@+id/add_authors"
+        android:name="com.developer.adiblarapp.Add_authors"
+        android:label="fragment_add_authors"
+        tools:layout="@layout/fragment_add_authors" />
+</navigation>
